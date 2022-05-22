@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: aquamarine
+}
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 250px;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgba(171, 236, 164, 1);
+    justify-content: center;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: lightcoral;
+}
+
+.form-container #error_message {
+    margin-bottom: 20px;
+    padding: 0;
+    background: red;
+    text-align: centre;
+    transition: all 0.5s ease-in-;
+}
+
+.form-container .user_input {
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.form-container.user_input input[type="text"],
+.form-container textarea {
+    width: 100%;
+    border: 1px solid blanchedalmond;
+    padding: 10px;
+    border-radius: 10px
+}
+
+.form-container textarea {
+    height: 70px;
+    resize: none;
+}
+
+.btn {
+    border: 0;
+    margin-top: 10px;
+    background: orchid;
+    padding: 5px;
+    color: paleturquoise;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
